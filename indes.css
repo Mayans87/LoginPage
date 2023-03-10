@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'PT Serif', serif;
+    
+}
+.container{
+    position:absolute;
+    left:35%;
+    top: 30%;
+    color:white;
+    
+}
+.container h1{
+    font-size: 40px;
+    border-bottom: 2px solid white;
+    margin-bottom: 40px;
+    padding: 13px 0;
+}
+.box input{
+    background: none;
+    width: 75%;
+    outline: none;
+    font-size: 20px;
+    border:none;
+    margin: 12px;
+    color:cyan;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 22px;
+    background: none;
+    color: fuchsia;
+    border: 2px solid fuchsia;
+    font-weight: bolder;
+}
+.box{
+    margin: 39px 8px;
+    border-bottom: 2px solid fuchsia;
+}
+.btn:hover{
+    opacity: 0.8;
+    color:cyan;
+    background-color: blueviolet;
+}
